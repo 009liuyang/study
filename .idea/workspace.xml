@@ -1,29 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d91dd478-e04a-4503-8a07-e4a49efc9749" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/代理模式/AbstractObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/代理模式/AbstractObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/代理模式/Cglib代理/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/代理模式/Cglib代理/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/代理模式/Cglib代理/CglibProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/代理模式/Cglib代理/CglibProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/代理模式/Cglib代理/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/代理模式/Cglib代理/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/代理模式/JDK代理/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/代理模式/JDK代理/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/代理模式/JDK代理/CarImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/代理模式/JDK代理/CarImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/代理模式/JDK代理/CarInvocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/代理模式/JDK代理/CarInvocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/代理模式/JDK代理/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/代理模式/JDK代理/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/代理模式/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/代理模式/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/代理模式/ProxyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/代理模式/ProxyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/代理模式/RealObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/代理模式/RealObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/单例模式/DoubleCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/单例模式/DoubleCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/单例模式/EHSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/单例模式/EHSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/单例模式/LHSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/单例模式/LHSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/单例模式/SimpleEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/单例模式/SimpleEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/工厂模式/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/工厂模式/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/工厂模式/IEncrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/工厂模式/IEncrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/工厂模式/MD5Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/工厂模式/MD5Encrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/工厂模式/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/工厂模式/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/工厂模式/SHA1Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/工厂模式/SHA1Encrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/模板模式/Cricket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/模板模式/Cricket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/模板模式/Football.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/模板模式/Football.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/模板模式/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/模板模式/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/模板模式/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/模板模式/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/策略模式/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/策略模式/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/策略模式/IEncrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/策略模式/IEncrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/策略模式/MD5Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/策略模式/MD5Encrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/策略模式/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/策略模式/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/策略模式/SHA1Encrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/策略模式/SHA1Encrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/装饰器模式/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/装饰器模式/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/装饰器模式/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/装饰器模式/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/装饰器模式/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/装饰器模式/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/装饰器模式/RedShapeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/装饰器模式/RedShapeDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/装饰器模式/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/装饰器模式/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/装饰器模式/ShapeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/装饰器模式/ShapeDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/装饰器模式/其他版本/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/装饰器模式/其他版本/Beverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/装饰器模式/其他版本/CondimentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/装饰器模式/其他版本/CondimentDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/装饰器模式/其他版本/DarkRoast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/装饰器模式/其他版本/DarkRoast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/装饰器模式/其他版本/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/装饰器模式/其他版本/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/装饰器模式/其他版本/Mocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/装饰器模式/其他版本/Mocha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/观察者模式/BinaryObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/观察者模式/BinaryObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/观察者模式/HexaObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/观察者模式/HexaObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/观察者模式/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/观察者模式/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/观察者模式/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/观察者模式/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/观察者模式/OctalObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/观察者模式/OctalObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/观察者模式/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/观察者模式/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/观察者模式/其他版本/F_Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/观察者模式/其他版本/F_Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/观察者模式/其他版本/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/观察者模式/其他版本/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/观察者模式/其他版本/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/观察者模式/其他版本/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/观察者模式/其他版本/S_Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/观察者模式/其他版本/S_Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/观察者模式/其他版本/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/观察者模式/其他版本/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/观察者模式/其他版本/T_Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/观察者模式/其他版本/T_Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/适配器模式/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/适配器模式/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/适配器模式/接口适配器/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/适配器模式/接口适配器/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/适配器模式/接口适配器/A_Instance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/适配器模式/接口适配器/A_Instance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/适配器模式/接口适配器/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/适配器模式/接口适配器/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/适配器模式/接口适配器/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/适配器模式/接口适配器/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/适配器模式/类适配器/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/适配器模式/类适配器/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/适配器模式/类适配器/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/适配器模式/类适配器/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/适配器模式/类适配器/Ps2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/适配器模式/类适配器/Ps2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/适配器模式/类适配器/Usb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/适配器模式/类适配器/Usb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/设计模式/适配器模式/类适配器/UsbImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/design/适配器模式/类适配器/UsbImpl.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../../sxf/cps-customer" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../sxf/xlm" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../workspace-sxf" value="PREVIEW" />
-      </map>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
+    <option name="x" value="36" />
     <option name="y" value="23" />
     <option name="width" value="1373" />
     <option name="height" value="813" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="StudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -33,6 +164,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d91dd478-e04a-4503-8a07-e4a49efc9749" name="Default Changelist" comment="" />
+      <created>1577678246344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577678246344</updated>
+      <workItem from="1577678247646" duration="475000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="475000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="36" y="23" width="1373" height="813" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24943651" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="masterDetails">
     <states>
