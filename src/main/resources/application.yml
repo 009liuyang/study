@@ -1,0 +1,35 @@
+spring:
+
+  thymeleaf:
+      cache: false
+      prefix: classpath:/templates/
+      suffix: .html
+      mode: HTML5
+
+  datasource:
+    name: test
+    url: jdbc:mysql://127.0.0.1:3306/friends?characterEncoding=utf8
+    username: root
+    password: Yang.521
+    characterEncoding: UTF-8
+    useUnicode: true
+
+  mybatis:
+    configuration:
+      mapUnderscoreToCamelCase: true
+    typeAliasesPackage: com.ly.study
+
+  server:
+      tomcat:
+          access_log_enabled: true
+          basedir: target/tomcat
+          port: 8080
+          context-path: /
+      session:
+          timeout: 3600
+
+
+  logging:
+    config: classpath:/logback.xml
+
+
