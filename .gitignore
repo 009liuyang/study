@@ -12,4 +12,5 @@ catalina*
 /.idea/
 mysql.sql
 target/
+workspace.xml
 

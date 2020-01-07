@@ -22,15 +22,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // 原价
-        Coffee c = new SimpleCoffee();
-        System.out.println(c.getCost());
+        House house = new HouseImpl();
+        house.output();
 
-        Coffee c1 = new HalfPercentDecorator(c);
-        System.out.println(c1.getCost());
-
-        Coffee c2 = new ThreePercentDecorator(c);
-        System.out.println(c2.getCost());
+        House houseDec = new HouseDecorator(house);
+        houseDec.output();
     }
 
 }
