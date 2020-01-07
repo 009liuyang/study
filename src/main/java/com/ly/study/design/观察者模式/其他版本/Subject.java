@@ -6,9 +6,10 @@ import java.util.List;
 /**
  * @Author : ly
  * @Date : 2019-06-03 14:39
- * @description :
+ * @description : 主题
  */
 public class Subject {
+
     private List<Observer> observers = new ArrayList<>();    //状态改变
     public void setMsg(String msg) {
         notifyAll(msg);

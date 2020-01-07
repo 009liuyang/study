@@ -1,12 +1,10 @@
 package com.ly.study.design.观察者模式;
 
 /**
- * @Author : ly
- * @Date : 2019-05-31 18:53
- * @description :
+ * 观察者接口
  */
-public abstract class Observer {
+public interface Observer {
 
-    protected Subject subject;
-    public abstract void update();
+    //当主题状态改变时,更新通知
+    public void update(int version);
 }

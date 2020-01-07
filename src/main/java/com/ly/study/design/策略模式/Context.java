@@ -1,20 +1,14 @@
 package com.ly.study.design.策略模式;
 
-/**
- * @Author : ly
- * @Date : 2019-05-23 11:34
- * @description :
- */
 public class Context {
 
-    private IEncrypt strategy;
+    private Strategy strategy;
 
-    public Context(IEncrypt strategy){
+    public Context(Strategy strategy) {
         this.strategy = strategy;
     }
 
-    public void encrypt(){
-        this.strategy.encrypt();
+    public int executeStrategy(int num1, int num2){
+        return strategy.calc(num1, num2);
     }
-
 }

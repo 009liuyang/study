@@ -6,5 +6,6 @@ package com.ly.study.design.观察者模式.其他版本;
  * @description :
  */
 public abstract class Observer {
+
     public abstract void update(String msg);
 }

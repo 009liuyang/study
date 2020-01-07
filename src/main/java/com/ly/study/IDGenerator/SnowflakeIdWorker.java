@@ -3,7 +3,7 @@ package com.ly.study.IDGenerator;
 /**
  * @Author : ly
  * @Date : 2019-11-04 15:20
- * @description :
+ * @description : 雪花算法:ID生成器
  */
 public class SnowflakeIdWorker {
 

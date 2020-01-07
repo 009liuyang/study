@@ -1,36 +1,16 @@
 package com.ly.study.design.观察者模式;
 
-import java.util.ArrayList;
-import java.util.List;
-
-
 /**
- * @Author : ly
- * @Date : 2019-05-31 18:53
- * @description :
+ * 主题(被观察者)
  */
+public interface Subject {
 
-public class Subject {
+    //添加观察者
+    void addObserver(Observer obj);
 
-    private List<Observer> observers = new ArrayList<Observer>();
-    private int state;
+    //移除观察者
+    void deleteObserver(Observer obj);
 
-    public int getState() {
-        return state;
-    }
-
-    public void setState(int state) {
-        this.state = state;
-        notifyAllObservers();
-    }
-
-    public void attach(Observer observer){
-        observers.add(observer);
-    }
-
-    public void notifyAllObservers(){
-        for (Observer observer : observers) {
-            observer.update();
-        }
-    }
+    //当主题方法改变时,这个方法被调用,通知所有的观察者
+    void notifyObserver();
 }
