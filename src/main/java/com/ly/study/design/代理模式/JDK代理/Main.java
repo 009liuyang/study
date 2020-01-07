@@ -11,12 +11,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println(new Integer("666").hashCode());
-
         CarInvocation carInvocation = new CarInvocation(new CarImpl());
 
         Car car = (Car)Proxy.newProxyInstance(Main.class.getClassLoader(), CarImpl.class.getInterfaces(), carInvocation);
         car.run();
-
     }
 }
