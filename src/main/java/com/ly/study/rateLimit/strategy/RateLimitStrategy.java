@@ -14,8 +14,6 @@ public interface RateLimitStrategy {
 
     LimitResult doRateLimit();
 
-    void afterProcess(Object handle);
-
     @Data
     @AllArgsConstructor
     class LimitResult {

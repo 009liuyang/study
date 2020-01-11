@@ -32,4 +32,17 @@ spring:
   logging:
     config: classpath:/logback.xml
 
+ratelimit:
+  config:
+    leakyBucket:
+      bucketSize: 5
+      timeWindowMs: 1000
+      outflowSize: 1
+      inflowWaitTimeoutMs: 2000
+    tokenBucket:
+      bucketSize: 300
+      addTimeWindowMs: 1000
+      addSize: 300
+      acquireTimeoutMs: 0
+
 

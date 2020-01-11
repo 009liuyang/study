@@ -1,24 +1,38 @@
 package com.ly.study.rateLimit.strategy;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * @ClassName RateLimitContext
  * @Author liuyang
  * @Date 2020-01-11 11:55
  **/
+@Service
 public class RateLimitContext {
 
-    private RateLimitStrategy rateLimitStrategy;
+    @Autowired
+    private final Map<String, RateLimitStrategy> strategyMap = new ConcurrentHashMap<>();
 
-    public RateLimitContext(RateLimitStrategy rateLimitStrategy) {
-        this.rateLimitStrategy = rateLimitStrategy;
+    //将RateLimitStrategy的实现类注入到map里
+    public RateLimitContext(Map<String, RateLimitStrategy> strategyMap) {
+        this.strategyMap.clear();
+        strategyMap.forEach((k, v)-> this.strategyMap.put(k, v));
     }
 
-    public void execute() throws InterruptedException {
-        RateLimitStrategy.LimitResult result = rateLimitStrategy.doRateLimit();
+    public boolean execute(String strategy) throws InterruptedException {
+        RateLimitStrategy.LimitResult result = strategyMap.get(strategy).doRateLimit();
+
         if(result.isThrough()){
-            System.out.println(result.isThrough());
             result.getTimeUnit().sleep(result.getDuration());
-            rateLimitStrategy.afterProcess(result.getHandle());
+            return true;
         }
+
+        return false;
     }
+
 }

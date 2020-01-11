@@ -1,14 +1,18 @@
-package com.ly.study.rateLimit;
+package com.ly.study;
 
 import com.google.common.util.concurrent.RateLimiter;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class RateLimiterTest {
+/**
+ * @ClassName test
+ * @Author liuyang
+ * @Date 2020-01-11 16:01
+ **/
+public class test {
 
     public static void main(String[] args) {
-
 
         RateLimiter rateLimiter = RateLimiter.create(5);
 
@@ -20,9 +24,5 @@ public class RateLimiterTest {
                 System.out.println(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
             }).start();
         }
-
-
-
-
     }
 }
