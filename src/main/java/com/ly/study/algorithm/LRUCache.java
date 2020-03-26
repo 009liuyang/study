@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * @Author : ly
  * @Date : 2019-11-06 17:30
- * @description :
+ * @description : LRU
  */
 public class LRUCache<K,V> extends LinkedHashMap<K,V> {
 

@@ -1,6 +1,7 @@
-package com.cache;
+package com.ly.study.cacheHelper;
 
-import com.cache.map.MapCache;
+
+import com.ly.study.cacheHelper.map.MapCache;
 
 public class Main {
 

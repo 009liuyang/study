@@ -6,7 +6,7 @@ import java.util.concurrent.BlockingQueue;
 /**
  * @Author : ly
  * @Date : 2019-11-06 17:24
- * @description :
+ * @description : 生产者 消费者模式
  */
 public class ProducerCostomer {
 

@@ -3,7 +3,7 @@ package com.ly.study.algorithm;
 /**
  * @Author : ly
  * @Date : 2019-11-06 14:49
- * @description :
+ * @description : 两个线程交替打印
  */
 public class jiaoTiPrint {
 

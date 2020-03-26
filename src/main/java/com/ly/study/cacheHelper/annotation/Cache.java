@@ -1,6 +1,5 @@
 package com.ly.study.cacheHelper.annotation;
 
-import com.cache.type.CacheType;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -55,7 +54,6 @@ public @interface Cache {
      *
      * @return CacheOpType
      */
-    CacheType opType() default CacheType.READ_WRITE;
 
     /**
      * 并发等待时间(毫秒),等待正在DAO中加载数据的线程返回的等待时间。
