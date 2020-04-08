@@ -1,11 +1,11 @@
-package com.ly.study.algorithm;
+package com.ly.study.algorithm.多线程交替打印;
 
 /**
  * @Author : ly
  * @Date : 2019-11-06 14:49
  * @description : 两个线程交替打印
  */
-public class jiaoTiPrint {
+public class UseWaitNotify {
 
     public static void main(String[] args) {
 

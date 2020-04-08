@@ -1,5 +1,8 @@
 package com.ly.study.reflect;
 
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+
 public class test1 {
 
     private static final ThreadLocal<String> threadLocal1=new ThreadLocal<String>();
@@ -9,5 +12,6 @@ public class test1 {
 
         threadLocal1.set("hello1");
         threadLocal2.set("hello2");
+
     }
 }

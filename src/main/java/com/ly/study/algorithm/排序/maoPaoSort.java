@@ -1,10 +1,10 @@
-package com.ly.study.algorithm;
+package com.ly.study.algorithm.排序;
 
 
 /**
+ * @description :冒泡排序
  * @Author : ly
  * @Date : 2019-11-05 17:18
- * @description :冒泡排序
  */
 public class maoPaoSort {
 

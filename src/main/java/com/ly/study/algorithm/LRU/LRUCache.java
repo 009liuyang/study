@@ -1,12 +1,12 @@
-package com.ly.study.algorithm;
+package com.ly.study.algorithm.LRU;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
+ * @description : LinkedHashMap实现
  * @Author : ly
  * @Date : 2019-11-06 17:30
- * @description : LRU
  */
 public class LRUCache<K,V> extends LinkedHashMap<K,V> {
 
