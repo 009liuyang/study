@@ -32,6 +32,12 @@ public class UseLinkedList {
     }
 
 
+    /**
+     * 先判断要插入的key是否存在，存在则移除，将其重新插入到队尾
+     * 如果队列长度满了话 移除头元素
+     * @param k
+     * @param v
+     */
     public void put (int k, int v){
         //先遍历查找是否有key 的元素, 有则删除，重新添加到链尾
         Iterator<Node> iterator = cache.iterator();
@@ -52,6 +58,7 @@ public class UseLinkedList {
 
 
     /**
+     * 遍历链表，如果找到key，将其移除，重新插入到队尾
      * -1 表示没找到
      */
     public int get(int k){

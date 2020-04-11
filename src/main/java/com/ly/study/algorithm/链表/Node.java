@@ -6,10 +6,10 @@ package com.ly.study.algorithm.链表;
  * @date 2020-04-08
  */
 public class Node {
-    Object data ;
+    Object data;
     Node next;
 
-    public Node(Object data){
+    public Node(int data){
         this.data = data;
     }
 }
@@ -66,6 +66,59 @@ class reverse{
 
         reverse2(a);
     }
+}
+
+/**
+ * 删除链表倒数第N个元素 要求只能遍历一遍
+ */
+class deleteNDesc{
+    public static void main(String[] args) {
+    }
+
+    void deleteN(Node node, int descN){
+
+        Node n1 = new Node(0);
+        Node n2 = new Node(0);
+
+        n1.next = node;
+        n2.next = node;
+
+        for (int i=1; i<descN; i++){
+            n1 = n1.next;
+        }
 
 
+        while (n1 != null){
+            n1 = n1.next;
+            n2 = n2.next;
+        }
+
+        n2.next = n2.next.next;
+    }
+}
+
+class marge2list{
+
+    class InNode{
+        int val;
+        InNode next;
+        public InNode(int val){
+            this.val = val;
+        }
+    }
+
+    Node marge2list(InNode n1, InNode n2){
+
+        while (n1!=null && n2!=null){
+
+            if(n1.next.val > n2.next.val){
+
+            }else if(n1.next.val < n2.next.val){
+                
+            }
+
+        }
+
+        return null;
+    }
 }

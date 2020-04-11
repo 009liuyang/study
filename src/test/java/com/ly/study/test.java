@@ -25,4 +25,18 @@ public class test {
             }).start();
         }
     }
+
+
+
+    void A(){
+
+        B();
+        C();
+    }
+
+    void B(){
+    }
+
+    void C(){
+    }
 }

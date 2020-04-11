@@ -19,7 +19,7 @@ public class TreeNode {
     }
 }
 
-class test{
+class print{
 
     static List<Integer> list = new ArrayList<>();
 
@@ -66,6 +66,47 @@ class test{
         }
 
         list.add(node.val);
+    }
+}
+
+class depth{
+
+    public static void main(String[] args) {
+        TreeNode treeNode = new TreeNode(0);
+        TreeNode treeNode1 = new TreeNode(1);
+        TreeNode treeNode2 = new TreeNode(2);
+        TreeNode treeNode3 = new TreeNode(3);
+        TreeNode treeNode4 = new TreeNode(4);
+        TreeNode treeNode5 = new TreeNode(5);
+        TreeNode treeNode6 = new TreeNode(6);
+        TreeNode treeNode7 = new TreeNode(7);
+        TreeNode treeNode8 = new TreeNode(8);
+
+        treeNode.left = treeNode1;
+        treeNode1.left = treeNode2;
+        treeNode1.right = treeNode7;
+        treeNode2.left = treeNode3;
+
+        treeNode.right = treeNode4;
+        treeNode4.right= treeNode5;
+        treeNode4.left = treeNode8;
+
+        System.out.println(maxDepth(treeNode));
+
+    }
+
+    public static int maxDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        } else {
+            System.out.println("before"+root.val);
+            int left_height = maxDepth(root.left);
+            System.out.println("after"+root.val);
+            int right_height = maxDepth(root.right);
+            int x = java.lang.Math.max(left_height, right_height) + 1;
+            System.out.println(x);
+            return x;
+        }
     }
 
 }
