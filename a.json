@@ -1,0 +1,129 @@
+//（pay_gateway_card，card1_list）
+{
+  "cardType": "ShengDaCard",
+  "cardName": "东营胜大卡",
+  "switch": "true",
+  "hasOpen": "true",
+  "itemType": "card",
+  "ignoreVendor": "false",
+  "cardCoId": "14",
+  "allowVendor": ",134,",
+  "appVersion": "4.5.0",
+  "payChannelId": "730000",
+  "router4QueryAsset": "AccountCenter"
+},
+
+
+//（pay_gateway_card，card1_property_ShengDaCard）
+{
+"logoUrl": "https://download.dmallcdn.com/03c806477f164c1f930d3f25c27cad96.png",
+"whiteLogoUrl": "",
+"bgColor": "rgba(81, 203, 145, 0.8)",
+"context": "这是胜大卡的文案",
+"redirectUrl": "http://testact.m.dmall.com/dac/card_bag/?hideCustomNavigationBar=true&bounces=false#/cardInfo",
+"redirectType": "2",
+"operateUrl": "https://testact.m.dmall.com/dac/card_bag/?hideCustomNavigationBar=true&bounces=false&page_vender_id=ShengDaCard&payWay=730&tabType=2#/binddingCard",
+"optType": "2",
+"assetType": "2",
+"needAuth": "1",
+"authUrl": "http://testpay.dmall.com/client"
+},
+
+
+
+//(pay_account，account_auth_switch)
+{
+"ShengDaCard":true
+}
+
+//(pay_account，device_auth_switch)
+{
+"switch_730000": true
+}
+
+//文案（pay_gateway_card，prepaid_card_auth_ShengDaCard）
+{
+}
+
+
+
+//充值绑定页面配置（pay_gateway_card_recharge，card_rule_ShengDaCard）
+{
+"funcs": [
+{
+"funcType": "2",
+"title": "绑定实体胜大卡"
+}
+],
+"bindCardProperty": [
+{
+"type": "1",
+"text": "请输入胜大卡的卡号（9位）",
+"length": "9",
+"showScanTool": "0"
+},
+{
+"type": "2",
+"text": "请输入胜大卡的卡密(6位)",
+"length": "6",
+"showScanTool": "1"
+}
+],
+"needAuth": "0",
+"activityId": "163",
+"pageId": "232",
+"storeId": "8888",
+"bindCardRule": "https://a.dmall.com/act/lcP2QULxF1anY.html?nopos=0&tpc=a_978",
+"cardName": "胜大卡",
+"bindPageActImgUrl": "https://img.dmall.com/mIndex/201908/a5d7ff2e-61c8-40d4-a81c-e4b089d44840",
+"bindPageActImgRedirectUrl": "https://t.dmall.com/mT6thK",
+"bindPageExpImgUrl": "https://download.dmallcdn.com/a7a1e2a4d18e448aadb3c15e13cdc5e0.png",
+"reminder": "请您妥善保管好您的实体美通卡，因实体美通卡被盗或遗失而可能造成的卡内资金的损失风险由您自行承担。请升级到最新版本绑定",
+"newPage": true
+}
+
+
+
+//绑卡配置（pay_gateway_card_recharge，card_bind_mid_page_14）
+{
+"coId": 14,
+"assetName": "胜大卡",
+"modifyFlag": 0,
+"offlineFlag": 1,
+"unbindTag": 1,
+"tipText": "<b>胜大卡绑定后可解绑。</b>为了您的用卡安全，实体卡可进行以下设置：",
+"protocolText": "绑定后实体卡片可用。<b>进入“我的-卡包-胜大卡”可更改设置。</b>"
+}
+
+//商家卡授权文案-胜大：pay_gateway_card_auth_ShengDaCard
+//商家卡授权文案-胜大：prepaid_card_auth_ShengDaCard
+{
+"title": "三信电子卡用户服务协议",
+}
+
+
+//二级页配置（pay_gateway_card,card2_ShengDaCard）
+{
+"title": "胜大卡",
+"router4QueryDetail": "JingweiCard",
+"bgColor": "rgb(255, 113, 113, 1)",
+"bgLogoUrl": "",
+"additionDesc": "查看失效卡",
+"additionUrl": "http://testact.m.dmall.com/dac/card_bag/?hideCustomNavigationBar=true&bounces=false#/failureCard",
+"consumeDetailUrl": "http://testact.m.dmall.com/dac/card_bag/?hideCustomNavigationBar=true&bounces=false#/allConsumeDetails",
+"singleCardConsumeUrl": "http://testact.m.dmall.com/dac/card_bag/?hideCustomNavigationBar=true&bounces=false#/singleConsumeDetails",
+"operateType": "2",
+"rechargeUrl": "http://testa.dmall.com/act/vIdepOsHPW5XA.html?nopos=0&tpc=a_2454",
+"assetType": "2",
+"supportCard": "true",
+"bindCardRedirectType": "2",
+"supportRecharge": "false",
+"bindCardUrl": "https://testact.m.dmall.com/dac/card_bag/?hideCustomNavigationBar=true&bounces=false&page_vender_id=ShengDaCard&payWay=730&tabType=2#/binddingCard",
+"shareInfo": {
+"shareTitle": "一份小礼，不成敬意",
+"shareImgUrl": "https://download.dmallcdn.com/0e67b1a0a93d4ed0ac77ce9fd1671a52.png",
+"shareText": "送你一张新百连超卡，超市购物随便花",
+"shareUrl": "http://testact.m.dmall.com/dac/card_bag/?dmfrom=wx&exchangeCode=${exchangeCode}#/receiveGiveCard"
+}
+}
+

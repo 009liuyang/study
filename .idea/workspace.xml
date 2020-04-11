@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d91dd478-e04a-4503-8a07-e4a49efc9749" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/LRU/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/jiaoTiPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/多线程交替打印/UseWaitNotify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/maoPaoSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/排序/maoPaoSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/reflect/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/reflect/test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/ThreadPool/CustomThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/ThreadPool/CustomThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/LRU/UseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/LRU/UseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/二叉树/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/二叉树/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/多线程交替打印/UseSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/多线程交替打印/UseSemaphore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/排序/maoPaoSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/排序/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
@@ -68,13 +67,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Marge2sort">
-    <configuration name="FindSameInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ly.study.algorithm.数组.FindSameInArray" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="排列组合" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ly.study.algorithm.数组.排列组合.排列组合" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ly.study.algorithm.多线程交替打印.*" />
+          <option name="PATTERN" value="com.ly.study.algorithm.数组.排列组合.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Marge2sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ly.study.algorithm.数组.Marge2sort" />
+    <configuration name="FindSmall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ly.study.algorithm.数组.FindSmall" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
@@ -95,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ly.study.algorithm.多线程交替打印.UseReentrantLock" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ly.study.algorithm.数组.递归.Solution" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ly.study.algorithm.多线程交替打印.*" />
+          <option name="PATTERN" value="com.ly.study.algorithm.数组.递归.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseSemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ly.study.algorithm.多线程交替打印.UseSemaphore" />
+    <configuration name="UserStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ly.study.algorithm.数组.排列组合.UserStack" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ly.study.algorithm.多线程交替打印.*" />
+          <option name="PATTERN" value="com.ly.study.algorithm.数组.排列组合.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Marge2sort" />
-        <item itemvalue="Application.FindSameInArray" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.reverse" />
-        <item itemvalue="Application.UseReentrantLock" />
-        <item itemvalue="Application.UseSemaphore" />
+        <item itemvalue="Application.FindSmall" />
+        <item itemvalue="Application.UserStack" />
+        <item itemvalue="Application.排列组合" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +182,9 @@
       <workItem from="1585792851241" duration="3542000" />
       <workItem from="1585959742071" duration="636000" />
       <workItem from="1586222916653" duration="2295000" />
-      <workItem from="1586308441668" duration="22997000" />
+      <workItem from="1586308441668" duration="24556000" />
+      <workItem from="1586394819337" duration="15532000" />
+      <workItem from="1586481693810" duration="15317000" />
     </task>
     <task id="LOCAL-00001" summary="算法更新">
       <created>1585185901836</created>
@@ -192,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585185901836</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="算法更新">
+      <created>1586343659653</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586343659654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -239,58 +247,63 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1585643391053" />
-    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1586325197061">
+    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1586414265312">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1586325197061" />
+    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1586414265312" />
     <state x="425" y="204" width="431" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585111465604">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="425" y="204" width="431" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.689@0.0.1280.689" timestamp="1585111465604" />
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1585185900874">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state x="703" y="370" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586485621494">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="703" y="370" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1050@0.0.1920.1050" timestamp="1586485621494" />
+    <state x="375" y="0" key="CommitChangelistDialog2" timestamp="1586343658706">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1585185900874" />
-    <state width="1877" height="161" key="GridCell.Tab.0.bottom" timestamp="1586331149435">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="375" y="0" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1586343658706" />
+    <state width="1237" height="171" key="GridCell.Tab.0.bottom" timestamp="1586521028340">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585186077154" />
-    <state width="1877" height="161" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586331149435" />
-    <state width="1877" height="161" key="GridCell.Tab.0.center" timestamp="1586331149435">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1237" height="171" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586521028340" />
+    <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586489456626" />
+    <state width="1237" height="171" key="GridCell.Tab.0.center" timestamp="1586521028340">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1585186077154" />
-    <state width="1877" height="161" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586331149435" />
-    <state width="1877" height="161" key="GridCell.Tab.0.left" timestamp="1586331149435">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1237" height="171" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586521028340" />
+    <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586489456626" />
+    <state width="1237" height="171" key="GridCell.Tab.0.left" timestamp="1586521028340">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1585186077154" />
-    <state width="1877" height="161" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586331149435" />
-    <state width="1877" height="161" key="GridCell.Tab.0.right" timestamp="1586331149435">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1237" height="171" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586521028340" />
+    <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586489456626" />
+    <state width="1237" height="171" key="GridCell.Tab.0.right" timestamp="1586521028340">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1585186077154" />
-    <state width="1877" height="161" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586331149435" />
-    <state width="1877" height="304" key="GridCell.Tab.1.bottom" timestamp="1586330564154">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1237" height="171" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586521028340" />
+    <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586489456626" />
+    <state width="1237" height="171" key="GridCell.Tab.1.bottom" timestamp="1586521028340">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585186077154" />
-    <state width="1877" height="304" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586330564154" />
-    <state width="1877" height="304" key="GridCell.Tab.1.center" timestamp="1586330564154">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1237" height="171" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586521028340" />
+    <state width="1877" height="351" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586489375749" />
+    <state width="1237" height="171" key="GridCell.Tab.1.center" timestamp="1586521028340">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1585186077154" />
-    <state width="1877" height="304" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586330564154" />
-    <state width="1877" height="304" key="GridCell.Tab.1.left" timestamp="1586330564154">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1237" height="171" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1586521028340" />
+    <state width="1877" height="351" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586489375749" />
+    <state width="1237" height="171" key="GridCell.Tab.1.left" timestamp="1586521028340">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1585186077154" />
-    <state width="1877" height="304" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586330564154" />
-    <state width="1877" height="304" key="GridCell.Tab.1.right" timestamp="1586330564154">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1237" height="171" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1586521028340" />
+    <state width="1877" height="351" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586489375749" />
+    <state width="1237" height="171" key="GridCell.Tab.1.right" timestamp="1586521028340">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="122" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1585186077154" />
-    <state width="1877" height="304" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586330564154" />
+    <state width="1237" height="171" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1586521028340" />
+    <state width="1877" height="351" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586489375749" />
     <state x="242" y="0" key="SettingsEditor" timestamp="1584539431163">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -307,10 +320,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="321" y="78" width="638" height="534" key="find.popup/0.0.1280.689@0.0.1280.689" timestamp="1585120608829" />
-    <state x="419" y="15" width="1008" height="1034" key="search.everywhere.popup" timestamp="1586329157187">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="279" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1586441196219">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="279" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1584539447199" />
+    <state x="279" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1586441196219" />
     <state x="419" y="15" width="1008" height="1034" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1586329157187" />
   </component>
   <component name="XDebuggerManager">
@@ -340,6 +353,81 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/数组/FindSameInArray.java</url>
           <line>19</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/数组/countSum_1.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/数组/printArr_1.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/数组/printArr_1.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/数组/printArr_1.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/数组/printArr_1.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/数组/digui.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/数组/digui.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/数组/排列组合/排列组合.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/数组/排列组合/UserStack.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/数组/排列组合/UserStack.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/数组/排列组合/UserStack.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/数组/排列组合/UserStack.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/数组/FindSmall.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/数组/FindSmall.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ly/study/algorithm/链表/Node.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

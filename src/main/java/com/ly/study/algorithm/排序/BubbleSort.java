@@ -6,7 +6,7 @@ package com.ly.study.algorithm.排序;
  * @Author : ly
  * @Date : 2019-11-05 17:18
  */
-public class maoPaoSort {
+public class BubbleSort {
 
     public static void main(String[] args) {
         int arr[] = {3,4,1,7,5,9,2};
