@@ -116,8 +116,4 @@ class depth{
         int countRight = qianxu1(tree.right);
         return Math.max(countLeft,countRight);
     }
-
-    public static void main(String[] args) {
-        new qianxu1(tree);
-    }
 }

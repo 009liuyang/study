@@ -9,7 +9,7 @@ public class Node {
     Object data;
     Node next;
 
-    public Node(int data){
+    public Node(Object data){
         this.data = data;
     }
 }
@@ -99,7 +99,7 @@ class deleteNDesc{
 
 class marge2list{
 
-    class InNode{
+   static class InNode{
         int val;
         InNode next;
         public InNode(int val){
@@ -107,18 +107,54 @@ class marge2list{
         }
     }
 
-    Node marge2list(InNode n1, InNode n2){
+    static InNode marge2list(InNode n1, InNode n2){
 
+        InNode head = new InNode(0);
+        InNode newHead = head;
         while (n1!=null && n2!=null){
-
-            if(n1.next.val > n2.next.val){
-
-            }else if(n1.next.val < n2.next.val){
-                
+            if(n1.val > n2.val){
+                InNode node = new InNode(n2.val);
+                n2 = n2.next;
+                while (head != null && head.next!=null){
+                    head = head.next;
+                }
+                head.next = node;
+            }else if(n1.val < n2.val){
+                InNode node = new InNode(n1.val);
+                n1 = n1.next;
+                while (head!=null && head.next!=null){
+                    head = head.next;
+                }
+                head.next = node;
             }
-
         }
 
-        return null;
+
+        if (n1 != null){
+            while (head!=null && head.next!=null){
+                head = head.next;
+            }
+            head.next = n1;
+        }
+
+        if (n2 != null){
+            while (head!=null && head.next!=null){
+                head = head.next;
+            }
+            head.next = n2;
+        }
+
+        return newHead.next;
+    }
+
+    public static void main(String[] args) {
+        InNode i1 = new InNode(1);
+        InNode i3 = new InNode(3);
+        i1.next = i3;
+
+        InNode i2 = new InNode(2);
+
+        InNode result = marge2list(i1, i2);
+        System.out.println(result);
     }
 }
