@@ -1,5 +1,7 @@
 package com.ly.study.reflect;
 
+import com.ly.study.cacheHelper.annotation.Cache;
+
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 
@@ -14,4 +16,6 @@ public class test1 {
         threadLocal2.set("hello2");
 
     }
+
+
 }
